@@ -1,0 +1,57 @@
+print(1*'#',100*'.')
+a = ("The minimum requirements to register ")
+b = ("1. Atleast need to hold a bachelor's degree ")
+c = ("2. Minimum experience in teaching required is 2 years")
+print(a)
+print(b)
+print(c)
+experience = int(input("experience :"))
+places_taught = str(input("teached places :"))
+btech_place = str(input("Studied b.tech place :"))
+btech_subject = str(input("pursued subject in b.tech :"))
+mtech_place = str(input("studied m.tech place :"))
+mtech_subject = str(input("pursued subject in m.tech :"))
+phd_place = str(input("studied phd place :"))
+phd_subject = str(input("pursued phd subject :"))
+
+print("The details you mentioned above")#str
+print("experience :",experience)
+print("teached places :",places_taught)
+print("studied b.tech place :",btech_place)
+print("prused subject in b.tech :",btech_subject)
+print("studied m.tech place :",mtech_place)
+print("pursed subject in m.tech :",mtech_subject)
+print("studied phd place :",phd_place)
+print("pursued phd subject :",phd_subject)
+
+print("if the above mentioned details are correct enter'YES'.")
+print("if the above mentioned details are incorrect enter'NO'.")
+ans = str(input("enter choice :"))
+
+if ans == "YES":
+    print(100*'#')
+    print("Registration as teacher is successfully completed")
+
+if ans == "NO":
+    experience = int(input("experience :"))
+    places_taught = str(input("teached places :"))
+    btech_place = str(input("Studied b.tech place :"))
+    btech_subject = str(input("pursued subject in b.tech :"))
+    mtech_place = str(input("studied m.tech place :"))
+    mtech_subject = str(input("pursued subject in m.tech :"))
+    phd_place = str(input("studied phd place :"))
+    phd_subject = str(input("pursued phd subject :"))
+    print("The details you mentioned above")#str
+    print("experience :",experience)
+    print("teached places :",places_taught)
+    print("studied b.tech place :",btech_place)
+    print("prused subject in b.tech :",btech_subject)
+    print("studied m.tech place :",mtech_place)
+    print("pursed subject in m.tech :",mtech_subject)
+    print("studied phd place :",phd_place)
+    print("pursued phd subject :",phd_subject)
+ 
+print("if the above mentioned details are correct enter'YES'.")
+ans = str(input("enter choice :"))
+
+print("Python Handwritten Notes.pdf")
