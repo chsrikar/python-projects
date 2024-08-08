@@ -13,6 +13,7 @@ cbc = "2. decimal"
 print(bbc)
 print(cbc)
 eee = str(input("ENTER YOUR CHOICE :"))
+eee = eee.lower()
 if eee == "normal":
 
  b = "Which calculation do you want to perform?"
@@ -25,23 +26,24 @@ if eee == "normal":
  print(d)
  print(e)
  print(f)
- ans = str(input("Enter your choice :"))
+ ans = str(input("ENTER YOUR CHOICE :"))
+ ans = ans.lower()
 
  if ans == "addition":
-    a = int(input("enter 1st value"))
-    b = int(input("enter 2nd value"))
+    a = int(input("ENTER FIRST VALUE :"))
+    b = int(input("ENTER SECOND VALUE :"))
     print(a+b)
  if ans ==  "multiplication":
-    a = int(input("enter 1st value"))
-    b = int(input("enter 2nd value"))
+    a = int(input("ENTER FIRST VALUE :"))
+    b = int(input("ENTER SECOND VALUE :"))
     print(a*b)
  if ans == "subtraction":
-    a = int(input("enter 1st value"))
-    b = int(input("enter 2nd value"))
+    a = int(input("ENTER FIRST VALUE :"))
+    b = int(input("ENTER SECOND VALUE :"))
     print(a-b)
  if ans == "division":
-    a = int(input("enter 1st value"))
-    b = int(input("enter 2nd value"))
+    a = int(input("ENTER FIRST VALUE :"))
+    b = int(input("ENTER SECOND VALUE :"))
     print(a/b)  
  print("THANKS FOR USING CALCULATOR")    
 
@@ -55,6 +57,7 @@ if eee == "decimal":
  print(c)
  print(d)
  ans = str(input("ENTER YOUR CHOICE :"))
+ ans = ans.lower()
  if ans == "addition":
     e = float(input("ENTER FIRST VALUE :" ))
     f = float(input("ENTER SECOND VALUE :"))
